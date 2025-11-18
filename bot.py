@@ -288,9 +288,9 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /help - Show this help message
 
 **Points System:**
-800-999: 1pt | 1000-1199: 2pts | 1200-1399: 3pts
-1400-1499: 4pts | 1500-1599: 5pts | 1600-1699: 6pts
-1700-1799: 7pts | 1800-1899: 8pts | 1900-1999: 10pts
+800-900: 1pt | 1000-1100: 2pts | 1200-1300: 3pts
+1400: 4pts | 1500: 5pts | 1600: 6pts
+1700: 7pts | 1800: 8pts | 1900: 10pts
 2000+: 12-85pts (increases with difficulty)
 """
     await update.message.reply_text(help_text)
